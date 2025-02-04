@@ -63,7 +63,7 @@ class ServerError(BaseException):
 
 
 class Config:
-    server_url = 'http://big-data-grading.swedencentral.cloudapp.azure.com:8080'
+    server_url = 'http://big-data-grading-2025.westeurope.cloudapp.azure.com:8080'
     cwd = os.path.dirname(os.path.realpath(__file__))
     test_folder = os.path.join(cwd, 'local_tests')
     test_path = os.path.join(test_folder, 'tests.pickle')
